@@ -1,0 +1,2 @@
+baseurl: /blog-posts
+exclude: ['README.md']

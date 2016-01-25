@@ -3,20 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>Blog Posts</title>
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
-	<h1>Sonny David Marton</h1>
-	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="week1blog.html">Week 1 Blog</a></li>
-		</ul>
-	</nav>
-</header>
-
-{{content}}
+	<div id='content'>
+		<div id='left'>
+			<img src="img/banner.jpg" alt="Portrait" height="200" width="200">
+			<p>Sonny David Marton</p>
+			{% include nav.html %}
+		</div>
+		<div id='right'>
+			{{content}}
+			
+			<footer>
+	
+			</footer>
+		</div>
+	</div>
 
 </body>
 </html>
